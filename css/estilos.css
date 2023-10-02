@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;    
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+
+body {
+    padding: 0 40px;
+}
+
+.principalTitle {
+    font-size: 1.6rem;
+    font-family: cursive;
+    padding: 0 40px;
+}
+
+.navegation {
+    width: 100%;
+    height: 200px;
+    background-image: url(/imagen/pared.jpg);
+    background-size: cover;
+    background-position: 0 30%;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 5px;
+    /*border : 3px solid green;*/
+}
+
+.navegation > a {
+    color: white;
+    background-color: blue;
+    padding: 1rem;
+    font-size: 0.8rem;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid black;     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principalContent {
+    display: flex;
+    flex-direction: column;
+    /* border: 3px solid red; */
+    /* padding: 0 40px; */
+}
+
+.h2title{
+    border: 1px solid black;
+    text-align: center;
+    text-shadow: -1px -1px 1px #aaa, 0px 4px 1px rgba(0,0,0,0.5), 4px 4px 5px rgba(0,0,0,0.7), 0px 0px 7px rgba(0,0,0,0.4);
+}
+
+img{
+    border-radius: 500px;
+}
+
+.imagesAndArticlesContent {
+    left: 20vh;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 20px;  
+}
+
+.imagensLogo {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+    /*border: 2px solid green; */
+}
+
+.imagensLogo > img {
+    width: 40vh;    
+}
+
+.articlesPersonales{
+      /* border: 2px solid blue; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+a[href="#"] {
+    background-color: white;
+    color: black;
+} 
+
